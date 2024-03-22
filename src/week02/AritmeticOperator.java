@@ -3,7 +3,7 @@ package week02;
 public class AritmeticOperator {
     public static void main(String[] args) {
         int number1= 25, number2= 3, number3= 17;
-        String websiteName= "Web Sitemiz: ", websiteUrl = "www.bilgeadam.com";
+        String websiteName= "Web Sitemiz:", websiteUrl = "www.bilgeadam.com";
 
          // Stringlerde ekleme operatörü kullanırsak:
 System.out.println("Merhaba!\n" +websiteName + websiteUrl + " Sitemizi ziyaret edin!"); // ?-> alt + *
