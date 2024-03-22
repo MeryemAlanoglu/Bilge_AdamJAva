@@ -17,6 +17,8 @@ System.out.println("Merhaba!\n" +websiteName + websiteUrl + " Sitemizi ziyaret e
          // Mod Alma Operatorleri:
          System.out.println("C%B= "+ (number3%number2));
 
+         System.out.println((2+5));
+
 
     }
 }
