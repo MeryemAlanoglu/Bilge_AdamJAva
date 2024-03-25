@@ -8,7 +8,7 @@ public class Q2 {
        /*
 
     kullanıcıdan 0 girene kadar hep sayılar alan 0 girildiğinde o zamana kadar girilen
-     tüm sayıların toplamını veren
+     tüm sayıların toplamını ekrana yazdıran java kodunu yazınız.
 
         */
 
