@@ -8,7 +8,7 @@ public class ScannerNexLineProblem {
 
         System.out.print("lütfen yasınızı giriniz:");
         int age = scanner.nextInt();//scanner.nextInt()+"\n";
-        scanner.nextLine();
+        scanner.nextLine();  //bu metod sayesinde yutmuyor.
 
         System.out.print("Lutfen adinizi giriniz:");
         String name=scanner.nextLine();
