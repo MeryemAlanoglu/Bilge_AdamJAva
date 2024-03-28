@@ -15,5 +15,8 @@ public class Main {
       //  obj.name="Constructor name field";
         // obj.2name="Constructor name field";
         System.out.println("The name is:" + obj.name+"\nThe second name is:"+obj.name);
+
+        NoArgsConstructor noArgsConstructor=new NoArgsConstructor();
+
     }
 }
