@@ -1,9 +1,14 @@
 package week03.methods.asalsayisorusu;
 
 import java.util.PrimitiveIterator;
+import java.util.Scanner;
 
 public class Test {
-    public static void main(String[] args) { /*main metodu kodları çalıştırabilmemiz için kullan bir metottur.*/
+    public static void main(String[] args) { /*Main metodu kodları çalıştırabilmemiz için kullan bir metottur.*/
+        {
+        }
+
+
         /*PrimeNumberCalculator sınıfının parametresiz bir nesnesini/instance'ını üretiyorum*/
         PrimeNumberCalculator primeNumberCalculatorNoArg = new PrimeNumberCalculator();//Argümansız ürettim.
         primeNumberCalculatorNoArg.number=1; //argümansız ürettiğim için number değerini elle atadım.
