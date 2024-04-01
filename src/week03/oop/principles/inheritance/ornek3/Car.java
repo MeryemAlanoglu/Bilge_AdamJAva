@@ -1,14 +1,15 @@
 package week03.oop.principles.inheritance.ornek3;
 
 public class Car extends Vehicle{
-    int numDoors;
+     int numDoors;
 
-    public Car(String brand, String model, int year) {
-        super(brand, model, year);
+    public Car(int numDoors) {
+        this.numDoors = numDoors;
     }
 
-    public Car() {
-        super();
+    public Car(String brand, String model, int year, int numDoors) {
+        super(brand, model, year);
+        this.numDoors = numDoors;
     }
 
     @Override
@@ -20,4 +21,5 @@ public class Car extends Vehicle{
     void stop() {
         System.out.println("Car is stopping");
     }
+
 }

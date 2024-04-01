@@ -5,6 +5,8 @@ public class Vehicle {
     String model;
     int year;
 
+    public Vehicle(){
+}
 
     public Vehicle(String brand, String model, int year) {
         this.brand = brand;
@@ -12,15 +14,11 @@ public class Vehicle {
         this.year = year;
     }
 
-    public Vehicle(){
-
-}
-
     void start(){
         System.out.println("Vehicle is starting");
 }
     void stop() {
         System.out.println("Vehicle is stopping");
-        }
 
-}
+    }
+    }
