@@ -4,7 +4,7 @@ import java.util.PrimitiveIterator;
 import java.util.Scanner;
 
 public class Test {
-    public static void main(String[] args) { /*Main metodu kodları çalıştırabilmemiz için kullan bir metottur.*/
+    public static void main(String[] args) { /*ArrayList01 metodu kodları çalıştırabilmemiz için kullan bir metottur.*/
         {
         }
 
