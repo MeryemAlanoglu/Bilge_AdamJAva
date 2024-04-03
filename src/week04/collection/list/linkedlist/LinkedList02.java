@@ -24,6 +24,5 @@ public class LinkedList02 {
         //son indexten eleman silme
         animalList.removeLast();
         System.out.println("LinkedList after removerLast() :"+animalList);
-
     }
 }
