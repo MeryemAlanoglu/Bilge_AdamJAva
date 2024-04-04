@@ -1,4 +1,4 @@
-package week04.map;
+package week04.map.hashmap;
 
 import week04.interfaceexamples.ornek02.Language;
 
@@ -60,6 +60,7 @@ public class HashMapExample02 {
         System.out.println("Updated hashMAp:"+LanguageHashMap);
 
         //Bir HashMap den öğeleri kaldırmak/silmek (remove())
+
         String vaule3= LanguageHashMap.remove(4);
         System.out.println("Remove value:"+ vaule3);
         System.out.println("Update HashMap:"+LanguageHashMap);
