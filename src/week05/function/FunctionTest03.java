@@ -14,5 +14,7 @@ public class FunctionTest03 {
         Function<Employee,String> employeeStringName=e-> e.getName();
         Employee emp= new Employee("Alperen",28);
         System.out.println(employeeStringName.apply(emp));
+
+
     }
 }
