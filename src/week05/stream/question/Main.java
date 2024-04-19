@@ -1,6 +1,7 @@
 package week05.stream.question;
 
-import week03.oop.principles.encapsulation.Person;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -16,6 +17,21 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+        List<Student> studentList= Student.generateStudents(30);
+        Double averageGrade =Student.calculateAverageGrade(studentList);
+        List<Student> studentsBellowBound =studentList.stream()
+                .filter(x-> x.getGrade()<50).collect(Collectors.toList());
+        System.out.println(averageGrade);
+        System.out.println(studentsBellowBound);
+        studentList.forEach(x-> System.out.println(x.getName()+"  "+ x.getGrade()));
+
+
+
+
+
+
+        }
     }
 
-}
+
